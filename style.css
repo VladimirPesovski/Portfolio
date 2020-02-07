@@ -19,6 +19,7 @@ header img {
   height: 250px;
   border-radius: 100%;
   margin: 50px 50px;
+  /* border-image-width: cover; */
 }
 .intro {
   
@@ -224,4 +225,11 @@ main {
 .contact a {
   color: #e6e0d1;
   text-decoration: none;
+}
+
+.authentication {
+  color: #e6e0d1;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px; 
 }
