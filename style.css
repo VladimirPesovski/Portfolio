@@ -8,6 +8,29 @@ body {
   
 }
 
+nav {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -30px;
+  text-decoration: none;
+  
+}
+
+
+
+nav li {
+  display: inline;
+  padding: 10px 30px 10px 30px;
+  background-color: #f68d20;
+  color: #e6e0d1;
+  text-decoration: none;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #e6e0d1;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -19,7 +42,6 @@ header img {
   height: 250px;
   border-radius: 100%;
   margin: 50px 50px;
-  /* border-image-width: cover; */
 }
 .intro {
   
@@ -211,7 +233,7 @@ main {
 }
 .contact ul {
  display: flex;
- padding: 10px 20px;
+ /* padding: 10px 10px; */
   
   
 }
@@ -231,5 +253,6 @@ main {
   color: #e6e0d1;
   display: flex;
   justify-content: center;
-  margin-top: 15px; 
+  margin-top: 10px; 
+  
 }
